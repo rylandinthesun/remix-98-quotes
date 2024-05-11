@@ -78,7 +78,13 @@ export default function Window({
         <div className="title-bar-text">{title}</div>
         {!!closeWindow && (
           <div className="title-bar-controls">
-            <button aria-label="Close" onClick={closeWindow}></button>
+            <button
+              aria-label="Close"
+              onClick={closeWindow}
+              style={{
+                backgroundColor: "silver",
+              }}
+            ></button>
           </div>
         )}
       </div>

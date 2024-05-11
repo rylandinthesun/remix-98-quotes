@@ -13,7 +13,7 @@ export default function TaskBar({ onClickStart }: TaskBarProps) {
           src="https://win98icons.alexmeub.com/icons/png/windows-4.png"
           alt="Windows 98 logo"
         />
-        <span className="ml-1 font-bold text-xs px-px">Start</span>
+        <span className="ml-1 font-bold text-xs px-px text-black">Start</span>
       </button>
     </footer>
   )

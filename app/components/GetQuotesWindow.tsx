@@ -34,6 +34,7 @@ export default function GetQuotesWindow({
             <button
               disabled={isGetQuoteOfTheDayBtnDisabled}
               onClick={handleClickGetQuoteOfTheDay}
+              className="px-3"
             >
               Quote of the day
             </button>
@@ -41,6 +42,7 @@ export default function GetQuotesWindow({
               type="submit"
               disabled={isGetRandomQuoteBtnDisabled}
               onClick={handleClickGetRandomQuote}
+              className="px-3"
             >
               Get a random quote!
             </button>
