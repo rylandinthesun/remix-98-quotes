@@ -72,14 +72,6 @@ export default function Index() {
 
   const randomWindowPosition = getRandomWindowPosition()
 
-  // function changeWindowPosition(name: string) {
-  //   // When a window is clicked, it should be brought to the front
-  //   // This function will change the order of the windows in the windowPosition array
-  //   const newWindowPosition = windowPosition.filter((w) => w !== name)
-  //   newWindowPosition.push(name)
-  //   setWindowPosition(newWindowPosition)
-  // }
-
   return (
     <main
       className="bg-[#008080] h-screen justify-center items-center flex relative overflow-x-hidden"
